@@ -11,11 +11,11 @@ namespace Mod6A_Abstracts_ver6
         new public string title {get; set;}
         public int season {get; set;}
         public int episode {get; set;}
-        public int [] writers {get; set;}
+        public List<int> writers {get; set;}
 
-        public Shows()
+        public Show()
         {
-            List<int> writers = new List<int>();      
+            writers = new List<int>();      
         }
 
         public override string DisplayType ()

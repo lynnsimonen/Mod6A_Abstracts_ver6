@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Mod6A_Abstracts_ver6
 {
-    public class MediaType
+    public abstract class MediaType
     {
         public int iD {get; set;}
         public string title {get; set;}

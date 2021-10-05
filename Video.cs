@@ -11,11 +11,11 @@ namespace Mod6A_Abstracts_ver6
         new public string title {get; set;}
         public string format {get; set;}
         public int length {get; set;}
-        public int [] regions {get; set;}
+        public List<int> regions {get; set;}
 
-        public Videos()
+        public Video()
         {
-            List<int> regions = new List<int>();      
+            regions = new List<int>();      
         }
 
         public override string DisplayType ()
