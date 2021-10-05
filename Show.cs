@@ -20,7 +20,7 @@ namespace Mod6A_Abstracts_ver6
 
         public override string DisplayType ()
         {
-            return String.Format("ID: {0,2}  Title: {1,-30}  Season: {2,-20} Episode: {3,10} Writers: {4,-25}", 
+            return String.Format("ID: {0,2}  Title: {1,-30}  \nSeason: {2,-20} Episode: {3,10} Writers: {4,-25}", 
                 iD, title, season, episode, writers);            
         }
     }

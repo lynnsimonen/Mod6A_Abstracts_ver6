@@ -20,7 +20,7 @@ namespace Mod6A_Abstracts_ver6
 
         public override string DisplayType ()
         {
-            return String.Format("ID: {0,2}  Title: {1,-30}  Format: {2,-20} Length: {3,10} Regions: {4,-25}", 
+            return String.Format("ID: {0,2}  Title: {1,-30}  \nFormat: {2,-20} Length: {3,10} Regions: {4,-25}", 
                 iD, title, format, length, regions);            
         }
     }
